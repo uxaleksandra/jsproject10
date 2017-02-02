@@ -6,5 +6,5 @@ console.log(add);
 		
 add.addEventListener('click', function() {
 	var liNumber = document.getElementsByTagName('li')
-	list.innerHTML += '<li>item</li>'+ liNumber.length;
+	list.innerHTML += '<li>item' + liNumber.length +  '</li>';
 });
